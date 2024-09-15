@@ -11,7 +11,7 @@
         events: {
           onClick: {
             enable: true,
-            mode: 'push'
+            mode: 'pull'
           },
           onHover: {
             enable: true,
@@ -23,7 +23,7 @@
             distance: 400,
             duration: 2,
             opacity: 0.8,
-            size: 40
+            size: 30
           },
           push: {
             quantity: 6
@@ -57,13 +57,13 @@
           density: {
             enable: true,
           },
-          value: 80
+          value: 45,
         },
         opacity: {
           value: 0.5
         },
         shape: {
-          type: 'circle'
+          type: 'triangle'
         },
         size: {
           value: { min: 1, max: 5 }
