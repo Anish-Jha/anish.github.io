@@ -213,7 +213,7 @@ export default {
 }
 
 .basic_contact_parent_ {
-  padding: 15vh 0vh 5vh 0vh !important;
+  padding: 0vh 0vh 5vh 0vh !important;
 }
 
 .go-up {
