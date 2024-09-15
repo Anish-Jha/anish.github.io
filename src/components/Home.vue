@@ -11,7 +11,6 @@
         Hi, I'm <span class="text-customWhite">Anish Jha</span>.
       </h1>
       <div class="flex flex-row gap-2 text-center items-center justify-end max-w-2xl text-spring-500">
-        <!-- <span class="text-3xl text-left"> >> </span> -->
         <TypeWriterDisplay />
       </div>
     </div>
