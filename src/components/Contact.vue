@@ -191,6 +191,22 @@ export default {
     width: 400px;
 }
 
+.basic_contact_img:hover {
+  transition: 0.5s ease-in-out;
+  transform-origin: center;
+  animation: shake 0.3s ease-in-out 5; /* Applying shake animation */
+}
+
+@keyframes shake {
+  0% { transform: translateY(0); }
+  20% { transform: translateY(-5px); }
+  40% { transform: translateY(5px); }
+  60% { transform: translateY(-5px); }
+  80% { transform: translateY(5px); }
+  100% { transform: translateY(0); }
+}
+
+
 .basic_contact_img iframe {
     width: 100% !important;
     height: 100% !important;
@@ -214,7 +230,7 @@ export default {
 
 .basic_find_me_>span:hover {
     transition: 0.1s ease-in-out;
-    /* transform: translateX(2px) translateY(-2px) scale(1.1); */
+    /* transform: translateY(2px) translateY(-2px) scale(1.1); */
     color: #bbf7d0 !important;
     background: #FF007F;
 }
@@ -262,10 +278,19 @@ export default {
     background: #FF007F;
     border: 2px solid #fff;
     transition: 0.1s ease-in-out;
-
+    animation: shake 0.3s ease-in-out 1;
     svg path {
         fill: #fff;
     }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
 }
 
 @media (max-width:768px) {

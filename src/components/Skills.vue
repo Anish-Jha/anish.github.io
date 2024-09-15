@@ -372,6 +372,7 @@ export default {
     color: #00FFFF;
 }
 
+
 .basic_skill_cont_:hover svg path {
     fill: #00FFFF;
 }
