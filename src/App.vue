@@ -76,13 +76,20 @@
       <Home />
       <a href="#home"
         class="go-up fixed flex justify-center items-center w-16 h-16 lg:bottom-16 right-16 sm:hidden md:block text-white z-99 "><svg
-          width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          fill="#000000" width="64px" height="64px" viewBox="0 0 24 24" id="up-square" data-name="Flat Line"
+          xmlns="http://www.w3.org/2000/svg" class="icon flat-line">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
-            <path
-              d="M15 13L12.2121 10.2121C12.095 10.095 11.905 10.095 11.7879 10.2121L9 13M7 21H17C19.2091 21 21 19.2091 21 17V7C21 4.79086 19.2091 3 17 3H7C4.79086 3 3 4.79086 3 7V17C3 19.2091 4.79086 21 7 21Z"
-              stroke="#00ffff" stroke-width="1" stroke-linecap="round"></path>
+            <rect id="secondary" x="3" y="3" width="18" height="18" rx="1" style="fill: none; backdrop-filter: blur(2px);stroke-width: 2;">
+            </rect>
+            <polyline id="primary" points="16 14 12 9 8 14"
+              style="fill: none; stroke: #ff007f; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;">
+            </polyline>
+            <rect id="primary-2" data-name="primary" x="3" y="3" width="18" height="18" rx="1"
+              transform="translate(24 0) rotate(90)"
+              style="fill: none; stroke: #ff007f; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;">
+            </rect>
           </g>
         </svg></a>
     </div>

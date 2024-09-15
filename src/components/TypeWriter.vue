@@ -2,7 +2,7 @@
   <div>
     <div class="typewriter">
       <span v-for="char in displayText" :key="char" class="text-white">{{ char }}</span>
-      <span class="text-3xl text-left text-spring-500 mr-4">{{ title }}</span>
+      <span class=" sm:text-2xl lg:text-3xl text-left text-spring-500 mr-4">{{ title }}</span>
     </div>
   </div>
 </template>

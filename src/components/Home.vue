@@ -7,7 +7,7 @@
             src="https://lottie.host/embed/3f37616e-8f2c-448d-9601-5e069e24ae26/mhUNo8K9fs.json"></iframe>
         </div>
       </div>
-      <h1 class="text-spring-500 font-bold text-center mt-8 lg:text-7xl md:text-5xl sm:text-5xl sm:mt-0">
+      <h1 class="text-spring-500 font-bold text-center mt-8 lg:text-8xl md:text-5xl sm:text-5xl sm:mt-0">
         Hi, I'm <span class="text-customWhite">Anish Jha</span>.
       </h1>
       <div class="flex flex-row gap-2 text-center items-center justify-end max-w-2xl text-spring-500">

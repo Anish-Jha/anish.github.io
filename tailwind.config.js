@@ -113,6 +113,7 @@ module.exports = {
         '5xl': '3rem',      // 48px
         '6xl': '4rem',      // 64px
         '7xl': '5rem',
+        '8xl': '7rem',
       },
       fontWeight: {
         'light': 300,
