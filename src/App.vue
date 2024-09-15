@@ -11,7 +11,7 @@
         events: {
           onClick: {
             enable: true,
-            mode: 'pull'
+            mode: 'push'
           },
           onHover: {
             enable: true,

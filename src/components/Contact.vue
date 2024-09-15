@@ -126,6 +126,25 @@ export default {
     },
     methods: {
         sendEmail() {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            const userEmail= this.email.trim();
+            if (!emailRegex.test(userEmail)) {
+                this.$vs.notify({
+                    time: 3000,
+                    title: 'Invalid Email',
+                    text: 'Please enter a valid email address.',
+                    color: 'warning',
+                });
+                return;
+            }
+            if (this.name == '' || this.email == '' || this.message == '') {
+                this.$vs.notify({
+                    color: 'warning',
+                    title: 'Fields are empty!',
+                    // description: 'You will hear from us shortly.'
+                });
+                return;
+            }
             const templateParams = {
                 from_name: this.name,
                 from_email: this.email,
@@ -147,7 +166,11 @@ export default {
                 })
                 .catch((error) => {
                     console.error('Error sending email:', error);
-                    alert('Failed to send message. Please try again.');
+                    this.$vs.notify({
+                        color: 'danger',
+                        title: 'Message not sent!',
+                        description: 'Unable to reach.'
+                    });
                 });
 
         }
