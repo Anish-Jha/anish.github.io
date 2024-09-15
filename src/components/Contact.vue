@@ -231,6 +231,7 @@ export default {
     width: 160px;
     border-radius: 10px;
     transition: 0.4s ease-in-out;
+    backdrop-filter: blur(4px);
 }
 
 .talk_btn_:hover {

@@ -12,8 +12,8 @@
       <div class="abt_type_cont_ text-white text-md flex flex-col justify-start">
         <div class="flex flex-row justify-start w-full gap-3 bg-customGray p-4 rounded-t-2xl">
           <div class="w-4 h-4 bg-red-500 rounded-full"></div>
-          <div class="w-4 h-4 bg-spring-500 rounded-full"></div>
-          <div class="w-4 h-4 bg-customGold rounded-full"></div>
+          <div class="w-4 h-4 bg-green-500 rounded-full"></div>
+          <div class="w-4 h-4 bg-yellow-500 rounded-full"></div>
         </div>
         <div class="p-4">
 
@@ -35,8 +35,8 @@
             tech community. 🌟</p>
           <br>
           <p>⚡ Fun fact: There are 10 types of people in this world—those who understand binary and those who don't.
-            Let’s connect and create something extraordinary together!<span
-              class="basic_end_ind_ text-spring-500 text-lg">|</span></p>
+            Let’s connect and create something extraordinary together! <span
+              class="basic_end_ind_ text-spring-500 text-xl">|</span></p>
 
         </div>
       </div>

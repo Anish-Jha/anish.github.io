@@ -179,6 +179,7 @@ export default {
   overflow-x: hidden;
   height: auto;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 .my-pfp-cont {
