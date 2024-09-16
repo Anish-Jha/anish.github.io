@@ -1,6 +1,6 @@
 <template>
   <div class="basic_parent_abt_ w-full flex flex-col justify-center items-center gap-12">
-    <h1 class="basic_abt_head_ text-spring-500 text-3xl font-bold">
+    <h1 class="basic_abt_head_ text-spring-500 text-4xl font-bold">
       About Me
     </h1>
     <div class="max-w-2xl w-full flex lg:flex-row items-center justify-center sm:flex-col sm:items-center">
@@ -9,11 +9,11 @@
           src="@/assets/my-pfp.jpg" />
       </div>
 
-      <div class="abt_type_cont_ text-white text-md flex flex-col justify-start">
-        <div class="flex flex-row justify-start w-full gap-3 bg-customGray p-4 rounded-t-2xl">
-          <div class="w-4 h-4 bg-red-500 rounded-full"></div>
-          <div class="w-4 h-4 bg-green-500 rounded-full"></div>
-          <div class="w-4 h-4 bg-yellow-500 rounded-full"></div>
+      <div class="abt_type_cont_ text-white text-md flex flex-col justify-start rounded-2xl">
+        <div class="flex flex-row justify-start w-full gap-3 bg-customGray p-2 rounded-t-2xl">
+          <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+          <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+          <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
         </div>
         <div class="p-4">
 
@@ -72,10 +72,8 @@ export default {
 .my_img {
   height: 60vh;
   max-height: 400px;
-  border: 1px solid #1d212c;
-  box-shadow: -3px 0px 0px 2px #151820;
-  transform-origin: left;
-  transition: 0.5s ease-in-out;
+  border: 1px solid #000;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   transition-duration: 0.5s;
 }
 
@@ -89,14 +87,13 @@ export default {
 .abt_type_cont_ {
   width: 60vw;
   max-width: 850px;
-  border: 1px solid #1d212c;
-  border-radius: 20px;
+  border: 1px solid #000;
   height: auto;
   z-index: 1;
   max-height: fit-content;
   background: #000;
   margin-left: -10px;
-  box-shadow: -3px 0px 0px 2px #242835;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.2); */
 
 }
@@ -130,7 +127,7 @@ export default {
   .my_img {
     height: 60vh;
     max-height: 300px;
-    border: 1px solid #1d212c;
+    border: 1px solid #000;
     box-shadow: 0px 3px 3px 2px #151820;
     transform-origin: bottom;
     transition: 0.5s ease-in-out;
@@ -140,7 +137,7 @@ export default {
   .abt_type_cont_ {
     width: 90vw;
     max-width: 850px;
-    border: 1px solid #1d212c;
+    border: 1px solid #000;
     border-radius: 20px;
     height: auto !important;
     max-height: fit-content !important;

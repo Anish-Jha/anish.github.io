@@ -263,7 +263,7 @@
                 </svg>
                 Postman
             </span>
-            <span class="basic_tool_cont_" data-aos="flip-up">
+            <span class="basic_tool_cont_ netlify" data-aos="flip-up">
                 <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="70" height="70"
                     style="--darkreader-inline-fill: #181a1b; --darkreader-inline-stroke: #e8e6e3;" stroke="#ffffff"
                     data-darkreader-inline-fill="" data-darkreader-inline-stroke="">
@@ -362,8 +362,7 @@ export default {
 
 .basic_skill_cont_:hover,
 .basic_tool_cont_:hover {
-    transform: translateY(-6px) translateX(-4px) rotate(180deg) scale(1.1);
-    ;
+    transform: translateY(-6px) translateX(-4px) scale(1.1);
     box-shadow: 5px 5px 0px 0px #00FFFF;
     transform-origin: center;
     transition-duration: 0.5s;
@@ -381,12 +380,19 @@ export default {
     fill: #00FFFF;
 }
 
+.netlify:hover svg{
+    stroke: #00FFFF !important;
+    path{
+        fill: #000 !important;
+    }
+}
+
 @media (max-width:600px) {
 
     .basic_tool_cont_,
     .basic_skill_cont_ {
-        width: 100px;
-        height: 115px;
+        width: 95px;
+        height: 105px;
         padding: 6px 3px;
         justify-content: center;
         text-align: center;
@@ -396,7 +402,7 @@ export default {
 
     .basic_skill_cont_:hover,
     .basic_tool_cont_:hover {
-        transform: translateY(-3px) translateX(-2px) rotate(180deg) scale(1.05);
+        transform: translateY(-3px) translateX(-2px) scale(1.05);
         ;
         box-shadow: 3px 3px 0px 0px #00FFFF;
         transform-origin: center;

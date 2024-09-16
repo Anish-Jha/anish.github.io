@@ -99,7 +99,7 @@ module.exports = {
         'sm': '150px',
         'md': '768px',
         'lg': '992px',
-        'xl': '1200px',
+        'xl': '1100px',
       },
       fontSize: {
         'xs': '.75rem',     // 12px
@@ -113,7 +113,7 @@ module.exports = {
         '5xl': '3rem',      // 48px
         '6xl': '4rem',      // 64px
         '7xl': '5rem',
-        '8xl': '7rem',
+        '8xl': '6rem',
       },
       fontWeight: {
         'light': 300,

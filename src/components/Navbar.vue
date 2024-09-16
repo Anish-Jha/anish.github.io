@@ -22,6 +22,7 @@
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skill">Skills</a>
+        <a href="#project">Projects</a>
         <a href="#contact">Contact</a>
       </div>
 
@@ -87,6 +88,7 @@
         <a href="#home" @click="toggleMenu">Home</a>
         <a href="#about" @click="toggleMenu">About</a>
         <a href="#skill" @click="toggleMenu">Skills</a>
+        <a href="#project" @click="toggleMenu">Projects</a>
         <a href="#contact" @click="toggleMenu">Contact</a>
       </div>
     </div>

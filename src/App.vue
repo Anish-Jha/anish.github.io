@@ -20,7 +20,7 @@
         },
         modes: {
           bubble: {
-            distance: 400,
+            distance: 300,
             duration: 2,
             opacity: 0.8,
             size: 30
@@ -99,14 +99,21 @@
     </div>
 
     <div id="skill" class="basic_skills_parent_ flex flex-col items-center justify-start gap-8 z-10">
-      <h1 class="basic_skills_head_ text-spring-500 text-3xl font-bold">
+      <h1 class="basic_skills_head_ text-spring-500 text-4xl font-bold">
         My Skills
       </h1>
       <Skills />
     </div>
 
+    <div id="project" class="basic_skills_parent_ flex flex-col items-center justify-start gap-8 z-10">
+      <h1 class="basic_skills_head_ text-spring-500 text-4xl font-bold">
+        Projects
+      </h1>
+      <Projects />
+    </div>
+
     <div id="contact" class="basic_contact_parent_ flex flex-col items-center justify-start gap-8 z-10">
-      <h1 class="basic_project_head_ text-spring-500 text-3xl font-bold">
+      <h1 class="basic_project_head_ text-spring-500 text-4xl font-bold">
         Get In Touch
       </h1>
       <Contact />
@@ -125,7 +132,7 @@ import Navbar from "./components/Navbar.vue";
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
 import Skills from "./components/Skills.vue";
-// import Projects from "./components/Projects.vue"
+import Projects from "./components/Projects.vue"
 import Contact from "./components/Contact.vue"
 import lottie from 'lottie-web';
 export default {
@@ -136,7 +143,7 @@ export default {
     About,
     Skills,
     Contact,
-    // Projects,
+    Projects,
   },
   data() {
     return {
@@ -182,7 +189,7 @@ export default {
 
 .basic_parent_div___ {
   /* background-image: url(https://lottie.host/embed/7802719d-02ce-4fb8-a9f1-3d4131970850/D3G5XHxREe.json); */
-  background: #0D0D0D;
+  background: #000;
   overflow-x: hidden;
   height: auto;
   position: relative;
@@ -202,7 +209,7 @@ export default {
 }
 
 .basic_skills_parent_ {
-  padding: 15vh 0vh 5vh 0vh !important;
+  padding: 15vh 0vh 0vh 0vh !important;
 }
 
 .basic_skills_head_,
@@ -213,12 +220,16 @@ export default {
 }
 
 .basic_contact_parent_ {
-  padding: 0vh 0vh 5vh 0vh !important;
+  padding: 20vh 0vh 5vh 0vh !important;
 }
 
 .go-up {
   /* border: 1px solid #00ffff; */
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(4px);
+}
+
+.go-up:hover svg #primary,.go-up:hover svg #primary-2{
+  stroke: #00ffff !important;
 }
 
 @media (max-width:500px) {
