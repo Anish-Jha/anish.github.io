@@ -356,7 +356,7 @@ export default {
     padding: 12px 5px;
     box-shadow: 4px 4px 0px 0px #00FFFF;
     cursor: pointer;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
 
 }
 
