@@ -6,7 +6,7 @@
                 src="https://fashion-hub-site.vercel.app/"></iframe>
             <div class="product_details_ flex flex-col gap-6 justify-start text-right">
                 <p class="heading__ font-bold text-2xl text-white">FashionHub.com</p>
-                <p class="basic_cloth_desc_ p-3 xl:text-lg font-bold md:text-sm md:font-normal">Fashion Hub is an
+                <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">Fashion Hub is an
                     ecommerce
                     platform to buy cloting and accessories for
                     men, women and kids.</p>
@@ -26,7 +26,7 @@
         <div class="basic_child_project_cont_2 flex flex-row items-center justify-start" data-aos="fade-right">
             <div class="product_details_ flex flex-col gap-6 justify-start text-left">
                 <p class="heading__ font-bold text-2xl text-white">Unbounce.com</p>
-                <p class="basic_cloth_desc_ p-3 xl:text-lg font-bold md:text-sm md:font-normal">This is the clone of
+                <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">This is the clone of
                     Unbounce.com, it helps you to
                     create
                     landing pages using A.I. and with minimal coding knowledge.</p>
@@ -51,7 +51,7 @@
             <img class="product_img object-contain w-full h-full" src="@/assets/pr-img/hk.png" />
             <div class="product_details_ flex flex-col gap-6 justify-start text-right">
                 <p class="heading__ font-bold text-2xl text-white">HealthCure.com</p>
-                <p class="basic_cloth_desc_ p-3 xl:text-lg font-bold md:text-sm md:font-normal">HealthCure.com is an
+                <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">HealthCure.com is an
                     e-commerce website for buying health products such as protien shakes and powders etc.
                 </p>
                 <p class="tech_stack_ text-sm font-bold text-white max-w-sm w-full">
@@ -71,7 +71,7 @@
 
             <div class="product_details_ flex flex-col gap-6 justify-start text-left">
                 <p class="heading__ font-bold text-2xl text-white">Nordstormrack.com</p>
-                <p class="basic_cloth_desc_ p-3 xl:text-lg font-bold md:text-sm md:font-normal">Nordstromrack is an e
+                <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">Nordstromrack is an e
                     commerce website where you can purchase
                     accessories for kids, women and men.</p>
                 <p class="tech_stack_ text-sm font-bold text-white max-w-sm w-full">
@@ -87,46 +87,13 @@
             </div>
             <img class="product_img object-contain w-full h-full" src="@/assets/pr-img/ns.png" />
         </div>
-        <!--<div class="basic_child_project_cont flex flex-row items-center justify-start" data-aos="fade-left"> 
-            <img class="product_img object-contain w-full h-full" src="@/assets/pr-img/sc.png" />
-            <div class="product_details_ flex flex-col gap-6 justify-start text-right">
-                <p class="heading__ font-bold text-2xl text-white">Sugarcosmetics.com</p>
-                <p class="basic_cloth_desc_ p-3 xl:text-lg font-bold md:text-sm md:font-normal">This is the clone of landing page of ecommerce website
-                    Sugarcosmetics where women can buy makeup products and accessories.</p>
-                <p class="tech_stack_ text-sm font-bold text-white max-w-sm w-full">
-                    React JS | HTML | CSS</p>
-                <div class="basic_opt_cont__ flex flex-row gap-4 justify-end items-center">
-                    
-                </div>
-            </div>
 
-        </div> -->
-
-        <!-- <div class="basic_child_project_cont flex flex-row items-center justify-start" data-aos="fade-left">
-            <img class="product_img object-contain w-full h-full" src="@/assets/pr-img/roll.png" />
-            <div class="product_details_ flex flex-col gap-6 justify-start text-right">
-                <p class="heading__ font-bold text-2xl text-white">Roll The Dice</p>
-                <p class="basic_cloth_desc_ p-3 xl:text-lg font-bold md:text-sm md:font-normal">This is a fun game in which players will roll the dice and
-                    player with highest number will win.</p>
-                <p class="tech_stack_ text-sm font-bold text-white max-w-sm w-full">
-                    React JS | HTML | CSS</p>
-                <div class="basic_opt_cont__ flex flex-row gap-4 justify-end items-center">
-                    <span onclick="window.open('','_blank')">
-                        <GitHub />
-                    </span>
-                    <span onclick="window.open('','_blank')">
-                        <LiveBtn />
-                    </span>
-                </div>
-            </div>
-
-        </div> -->
 
         <div class="basic_child_project_cont flex flex-row items-center justify-start" data-aos="fade-left">
             <img class="product_img object-contain w-full h-full" src="@/assets/pr-img/wa.png" />
             <div class="product_details_ flex flex-col gap-6 justify-start text-right">
                 <p class="heading__ font-bold text-2xl text-white">Weather.com</p>
-                <p class="basic_cloth_desc_ p-3 font-bold md:text-sm md:font-normal">A simple weather app which shows
+                <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">A simple weather app which shows
                     you the weather reports and
                     map
                     of whatever city you want.</p>
@@ -254,18 +221,18 @@ export default {
     border-top-left-radius: 2rem;
     height: 350px !important;
     transition: 0.3s ease-in-out;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     background: white !important;
 }
 
 
 .basic_child_project_cont .basic_cloth_desc_ {
-    border: 1px solid #a6a6a6;
-    box-shadow: 5px 5px 0px 0px #fff;
+    border: 1px solid #f5f5f5;
+    box-shadow: 5px 5px 0px 0px #a6a6a6;
     height: 95px;
     width: 41vw;
-    /* background: #fff; */
-    backdrop-filter: blur(6px);
+    background: rgba(71, 71, 71, 0.3);
+    backdrop-filter: blur(4px);
     max-width: 580px;
     z-index: 1;
     color: #fff;
@@ -275,12 +242,12 @@ export default {
 }
 
 .basic_child_project_cont_2 .basic_cloth_desc_ {
-    border: 1px solid #a6a6a6;
-    box-shadow: 5px 5px 0px 0px #fff;
+    border: 1px solid #f5f5f5;
+    box-shadow: 5px 5px 0px 0px #a6a6a6;
     height: 95px;
     width: 41vw;
     max-width: 580px;
-    /* background: #fff; */
+    background: rgba(71, 71, 71, 0.3);
     backdrop-filter: blur(6px);
     z-index: 1;
     color: #fff;
