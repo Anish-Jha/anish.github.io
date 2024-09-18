@@ -1,8 +1,28 @@
 <template>
+    <div class="basic_child_project_cont_2 flex flex-row items-center justify-start mt-8" data-aos="fade-right">
+        <div class="product_details_ flex flex-col gap-6 justify-start text-left">
+            <p class="heading__ font-bold text-2xl text-white">Youtube.com</p>
+            <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">This is the clone of
+                Youtube has been developed with help of youtube api for developers.</p>
+            <p class="tech_stack_ text-sm font-bold text-white max-w-sm w-full">
+                HTML | CSS | Advance JS | Youtube API</p>
+            <div class="basic_opt_cont__ flex flex-row gap-4 justify-start items-center">
+
+                <span onclick="window.open('https://github.com/Anish-Jha/JS-Projects/tree/main/Youtube','_blank')">
+                    <GitHub />
+                </span>
+                <span onclick="window.open('https://youtube-clone-deploy.netlify.app/','_blank')">
+                    <LiveBtn />
+                </span>
+            </div>
+        </div>
+        <!-- <iframe class="product_img object-fill w-full h-full md:max-w-sm md:object-cover" src="https://fluffy-smakager-0c7aa2.netlify.app/index.html"></iframe> -->
+        <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/youtube.png" />
+    </div>
     <div class="basic_parent_project_cont flex flex-col gap-20 items-center justify-start max-w-4xl w-full">
         <div class="basic_child_project_cont flex flex-row items-center justify-start" data-aos="fade-left">
-            <!-- <img class="product_img object-contain w-full h-full" src="@/assets/pr-img/f-hub.png" /> -->
-            <iframe class="product_img object-contain w-full h-full"
+            <!-- <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/f-hub.png" /> -->
+            <iframe class="product_img object-fill w-full h-full"
                 src="https://fashion-hub-site.vercel.app/"></iframe>
             <div class="product_details_ flex flex-col gap-6 justify-start text-right">
                 <p class="heading__ font-bold text-2xl text-white">FashionHub.com</p>
@@ -42,13 +62,13 @@
                     </span>
                 </div>
             </div>
-            <!-- <iframe class="product_img object-contain w-full h-full md:max-w-sm md:object-cover" src="https://fluffy-smakager-0c7aa2.netlify.app/index.html"></iframe> -->
-            <img class="product_img object-contain w-full h-full" src="@/assets/pr-img/unb.png" />
+            <!-- <iframe class="product_img object-fill w-full h-full md:max-w-sm md:object-cover" src="https://fluffy-smakager-0c7aa2.netlify.app/index.html"></iframe> -->
+            <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/unb.png" />
         </div>
 
 
         <div class="basic_child_project_cont flex flex-row items-center justify-start" data-aos="fade-left">
-            <img class="product_img object-contain w-full h-full" src="@/assets/pr-img/hk.png" />
+            <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/hk.png" />
             <div class="product_details_ flex flex-col gap-6 justify-start text-right">
                 <p class="heading__ font-bold text-2xl text-white">HealthCure.com</p>
                 <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">HealthCure.com is an
@@ -85,12 +105,12 @@
                     </span>
                 </div>
             </div>
-            <img class="product_img object-contain w-full h-full" src="@/assets/pr-img/ns.png" />
+            <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/ns.png" />
         </div>
 
 
         <div class="basic_child_project_cont flex flex-row items-center justify-start" data-aos="fade-left">
-            <img class="product_img object-contain w-full h-full" src="@/assets/pr-img/wa.png" />
+            <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/wa.png" />
             <div class="product_details_ flex flex-col gap-6 justify-start text-right">
                 <p class="heading__ font-bold text-2xl text-white">Weather.com</p>
                 <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">A simple weather app which shows
@@ -215,8 +235,8 @@ export default {
 .basic_child_project_cont_2 .product_img {
     width: 45vw;
     max-width: 650px;
-    /* border: 2px solid #000; */
-    box-shadow: 8px 8px 0px 0px #1f1f1f;
+    border: 2px solid #fff;
+    box-shadow: 8px 8px 0px 0px #a6a6a6;
     border-bottom-right-radius: 2rem;
     border-top-left-radius: 2rem;
     height: 350px !important;
