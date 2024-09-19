@@ -1,28 +1,29 @@
 <template>
-    <div class="basic_child_project_cont_2 flex flex-row items-center justify-start mt-8" data-aos="fade-right">
-        <div class="product_details_ flex flex-col gap-6 justify-start text-left">
-            <p class="heading__ font-bold text-2xl text-white">Youtube.com</p>
-            <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">This is the clone of
-                Youtube has been developed with help of youtube api for developers.</p>
-            <p class="tech_stack_ text-sm font-bold text-white max-w-sm w-full">
-                HTML | CSS | Advance JS | Youtube API</p>
-            <div class="basic_opt_cont__ flex flex-row gap-4 justify-start items-center">
+    <div class="flex flex-col justify-start items-center lg:gap-32 sm:gap-16 lg:pt-16 sm:pt-4">
+        <div class="basic_child_project_cont_2 flex flex-row items-center justify-start mt-8" data-aos="fade-right">
+            <div class="product_details_ flex flex-col gap-6 justify-start text-left">
+                <p class="heading__ font-bold text-2xl text-white">Youtube.com</p>
+                <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">This is the clone of
+                    Youtube has been developed with help of youtube api for developers.</p>
+                <p class="tech_stack_ text-sm font-bold text-white max-w-sm w-full">
+                    HTML | CSS | Advance JS | Youtube API</p>
+                <div class="basic_opt_cont__ flex flex-row gap-4 justify-start items-center">
 
-                <span onclick="window.open('https://github.com/Anish-Jha/JS-Projects/tree/main/Youtube','_blank')">
-                    <GitHub />
-                </span>
-                <span onclick="window.open('https://youtube-clone-deploy.netlify.app/','_blank')">
-                    <LiveBtn />
-                </span>
+                    <span onclick="window.open('https://github.com/Anish-Jha/JS-Projects/tree/main/Youtube','_blank')">
+                        <GitHub />
+                    </span>
+                    <span onclick="window.open('https://youtube-clone-deploy.netlify.app/','_blank')">
+                        <LiveBtn />
+                    </span>
+                </div>
             </div>
+            <!-- <iframe class="product_img object-fill w-full h-full md:max-w-sm md:object-cover" src="https://fluffy-smakager-0c7aa2.netlify.app/index.html"></iframe> -->
+            <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/youtube.png" />
         </div>
-        <!-- <iframe class="product_img object-fill w-full h-full md:max-w-sm md:object-cover" src="https://fluffy-smakager-0c7aa2.netlify.app/index.html"></iframe> -->
-        <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/youtube.png" />
-    </div>
-    <div class="basic_parent_project_cont flex flex-col gap-20 items-center justify-start max-w-4xl w-full">
+
         <div class="basic_child_project_cont flex flex-row items-center justify-start" data-aos="fade-left">
             <!-- <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/f-hub.png" /> -->
-            <iframe class="product_img object-fill w-full h-full"
+            <iframe class="product_img object-fill w-full h-full" style="width: 100% !important;"
                 src="https://fashion-hub-site.vercel.app/"></iframe>
             <div class="product_details_ flex flex-col gap-6 justify-start text-right">
                 <p class="heading__ font-bold text-2xl text-white">FashionHub.com</p>
@@ -43,6 +44,7 @@
             </div>
 
         </div>
+
         <div class="basic_child_project_cont_2 flex flex-row items-center justify-start" data-aos="fade-right">
             <div class="product_details_ flex flex-col gap-6 justify-start text-left">
                 <p class="heading__ font-bold text-2xl text-white">Unbounce.com</p>
@@ -66,7 +68,6 @@
             <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/unb.png" />
         </div>
 
-
         <div class="basic_child_project_cont flex flex-row items-center justify-start" data-aos="fade-left">
             <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/hk.png" />
             <div class="product_details_ flex flex-col gap-6 justify-start text-right">
@@ -87,6 +88,7 @@
             </div>
 
         </div>
+
         <div class="basic_child_project_cont_2 flex flex-row items-center justify-start" data-aos="fade-right">
 
             <div class="product_details_ flex flex-col gap-6 justify-start text-left">
@@ -108,12 +110,12 @@
             <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/ns.png" />
         </div>
 
-
         <div class="basic_child_project_cont flex flex-row items-center justify-start" data-aos="fade-left">
             <img class="product_img object-fill w-full h-full" src="@/assets/pr-img/wa.png" />
             <div class="product_details_ flex flex-col gap-6 justify-start text-right">
                 <p class="heading__ font-bold text-2xl text-white">Weather.com</p>
-                <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">A simple weather app which shows
+                <p class="basic_cloth_desc_ p-3 xl:text-base md:text-sm md:font-normal">A simple weather app which
+                    shows
                     you the weather reports and
                     map
                     of whatever city you want.</p>
@@ -127,8 +129,8 @@
                         <LiveBtn />
                     </span>
                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
 </template>
@@ -165,7 +167,7 @@ export default {
 .basic_child_project_cont_2 {
     width: 90vw;
     max-width: 1200px;
-    height: 360px !important;
+    height: 400px !important;
     padding: 0;
     /* border: 1px solid #fff; */
 
@@ -233,13 +235,13 @@ export default {
 
 .basic_child_project_cont .product_img,
 .basic_child_project_cont_2 .product_img {
-    width: 45vw;
-    max-width: 650px;
-    border: 2px solid #fff;
-    box-shadow: 8px 8px 0px 0px #a6a6a6;
+    width: auto;
+    max-width: 750px;
+    border: 2px solid #f6f6f6;
+    box-shadow: 10px 10px 0px 0px #a6a6a6;
     border-bottom-right-radius: 2rem;
     border-top-left-radius: 2rem;
-    height: 350px !important;
+    height: 400px !important;
     transition: 0.3s ease-in-out;
     /* opacity: 0.8; */
     background: white !important;
@@ -277,7 +279,7 @@ export default {
 }
 
 
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
 
     .basic_child_project_cont {
         flex-direction: column !important;
@@ -369,7 +371,7 @@ export default {
         .basic_child_project_cont .product_img,
         .basic_child_project_cont_2 .product_img {
             width: 100%;
-            max-width: 680px;
+            max-width: 460px;
             box-shadow: none;
             border-radius: 15px;
             height: 250px !important;

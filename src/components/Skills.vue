@@ -1,9 +1,9 @@
 <template>
-    <div class="flex flex-col items-center justify-center gap-12 w-full max-w-4xl">
+    <div class="flex flex-col items-center justify-center gap-12 w-full max-w-4xl lg:px-16 md:px-16">
         <p class="text-white text-xl text-center font-bold">
             Languages, Frameworks & Libraries
         </p>
-        <div class="grid lg:grid-cols-5 grid-rows-3 sm:grid-cols-3 lg:gap-20 sm:gap-6 justify-center items-center mt-8">
+        <div class="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 lg:grid-rows-2 grid-row-4 grid-row-5 lg:gap-20 gap-6 justify-center items-center mt-8">
             <span class="basic_skill_cont_" data-aos="flip-up">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0,0,256,256"
                     style="fill: #000000">
@@ -185,7 +185,7 @@
             Tools
         </p>
 
-        <div class="grid lg:grid-cols-5 grid-rows-3 sm:grid-cols-3 lg:gap-20 sm:gap-6 justify-center items-center mt-8">
+        <div class="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 lg:grid-rows-2 grid-row-4 grid-row-5 lg:gap-20 gap-6 justify-center items-center mt-8">
             <span class="basic_tool_cont_" data-aos="flip-up">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0,0,256,256"
                     style="fill:#000000;">
